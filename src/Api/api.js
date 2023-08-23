@@ -11,4 +11,14 @@ export const fetchTopAlbums = async () => {
   }
 };
 
+export const fetchNewAlbums = async () => {
+  try {
+    const response = await axios.get(`${BACKEND_ENDPOINT}/albums/new`);
+    return response.data;
+  } catch (err) {
+    console.error(err);
+  }
+};
+
 // https://qtify-backend-labs.crio.do/albums/top
+// https://qtify-backend-labs.crio.do/albums/new
