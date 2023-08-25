@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import styles from "../carousel.module.css";
+import styles from "../carouselRightNavigation/carouselRightNavigation.module.css";
 import { useSwiper } from "swiper/react";
 import { ReactComponent as RightArrow } from "../../../Assets/rightArrow.svg";
 

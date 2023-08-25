@@ -1,11 +1,8 @@
-.wrapper {
-  position: relative;
-}
-
-/* .leftNavigation {
+.rightNavigation {
+  cursor: pointer;
   position: absolute;
-  left: 31px;
+  right: 10px;
   top: 40%;
   transform: translate(-50%);
   z-index: 10;
-} */
+}
