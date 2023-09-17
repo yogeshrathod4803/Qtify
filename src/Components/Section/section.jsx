@@ -15,6 +15,7 @@ const Section = ({
   value,
   handleChange,
 }) => {
+  console.log({ data });
   return (
     <div>
       <div className={styles.header}>

@@ -3,6 +3,8 @@ import styles from "../SearcBar/search.module.css";
 import { ReactComponent as SearchIcon } from "../../Assets/Search-icon.svg";
 
 const search = ({ placeholder, data }) => {
+  console.log({ data });
+
   return (
     <>
       <form className={styles.wrapper}>

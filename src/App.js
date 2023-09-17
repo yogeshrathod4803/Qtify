@@ -4,6 +4,7 @@ import HeroSection from "./Components/Hero-Section/hero-section.jsx";
 import { fetchTopAlbums, fetchNewAlbums, fetchSongs } from "./Api/api";
 import Section from "./Components/Section/section.jsx";
 import styles from "../src/App.css";
+import FaqSection from "./Components/FAQ/faq.js";
 
 function App() {
   const [topAlbums, setTopAlbums] = useState([]);
@@ -118,6 +119,7 @@ function App() {
           handleChange={handleChange}
         />
       </div>
+      <FaqSection />
     </>
   );
 }
